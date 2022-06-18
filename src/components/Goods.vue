@@ -1,12 +1,12 @@
 <template>
-    <div class="goods" >
-      <img :src="a.imagePath" />
-      <div class="text">{{ a.name }}</div>
-      <div class="cart">
-        <div class="price">￥{{ a.price }}</div>
-        <img src="../assets/cart.png" />
-      </div>
+  <div class="goods">
+    <img :src="a.imagePath" />
+    <div class="text">{{ a.name }}</div>
+    <div class="cart">
+      <div class="price">￥{{ a.price }}</div>
+      <img src="../assets/cart.png" />
     </div>
+  </div>
 </template>
 
 <script>
@@ -60,5 +60,4 @@ export default {
     }
   }
 }
-
 </style>

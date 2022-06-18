@@ -1,7 +1,7 @@
 <template>
   <div class="goodsList">
     <template v-if="!lists.length == 0">
-    <Goods v-for="(i,index) in lists" :key="index" :a="i"></Goods>
+      <Goods v-for="(i, index) in lists" :key="index" :a="i"></Goods>
     </template>
     <div class="loading" v-else>
       <img src="../assets/loading.png" alt="" />

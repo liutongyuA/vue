@@ -20,11 +20,11 @@
     </div>
     <GoodsList></GoodsList>
     <div class="footer">
-        <img src="../assets/sy.jpg" />
-        <img src="../assets/fl.jpg" />
-        <img src="../assets/sccx.jpg" />
-        <img src="../assets/rmph.jpg" />
-        <img src="../assets/yx100.jpg" />
+      <img src="../assets/sy.jpg" />
+      <img src="../assets/fl.jpg" />
+      <img src="../assets/sccx.jpg" />
+      <img src="../assets/rmph.jpg" />
+      <img src="../assets/yx100.jpg" />
     </div>
   </div>
 </template>
@@ -39,7 +39,6 @@ export default {
 <style lang="scss" scoped>
 .fresh {
   width: 400px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,10 +89,10 @@ export default {
     height: 40px;
     display: flex;
     justify-content: space-between;
-    >img{
-        width: 45px;
-        height: 40px;
-        cursor: pointer;
+    > img {
+      width: 45px;
+      height: 40px;
+      cursor: pointer;
     }
   }
 }
